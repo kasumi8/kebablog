@@ -1,0 +1,25 @@
+$blue:#F0F4F8;
+
+body{
+    background-color:$blue;
+    .article-title{
+    margin-bottom: 0;
+    }
+}
+
+#post-date{
+    color: gray;
+    margin-top: 0;
+
+}
+
+.box{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-style: ridge;
+}
+
+img{
+    width:450px;
+}
