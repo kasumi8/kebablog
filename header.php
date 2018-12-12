@@ -12,8 +12,6 @@
 	<link rel="shortcut icon" href="images/favicon.ico"/>
 </head>
 <body>
-<div class="box1">
-<h2>404 File not found</h2>
-<a href=index.html>トップに戻る</a>
-</div>
-</body>
+	<div id="header">
+		<h1>ケバブログ</h1>
+    </div>

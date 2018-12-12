@@ -144,4 +144,39 @@ a:hover {
   opacity: 0.5;
 }
 
+body {
+  background-color: #F0F4F8;
+}
+
+.box1 {
+  width: 60%;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: solid 1px black;
+}
+
+body {
+  background-color: #F0F4F8;
+}
+body .article-title {
+  margin-bottom: 0;
+}
+
+#post-date {
+  color: gray;
+  margin-top: 0;
+}
+
+/* .box1 {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-style: ridge;
+} */
+
+img {
+  width: 450px;
+}
+
 /*# sourceMappingURL=style.css.map */
