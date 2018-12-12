@@ -148,7 +148,7 @@ body {
   background-color: #F0F4F8;
 }
 
-.box1 {
+.box {
   width: 60%;
   background-color: white;
   margin: 20px;
@@ -168,15 +168,44 @@ body .article-title {
   margin-top: 0;
 }
 
-/* .box1 {
+.box1 {
   background-color: white;
   margin: 20px;
   padding: 20px;
   border-style: ridge;
-} */
+}
 
 img {
   width: 450px;
+}
+
+body, div, p, h1, h2, h3, h4, h5 img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mplus 1p", "Titillium Web", sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #F0F4F8;
+}
+
+.form-control {
+  background-color: #fffafa;
+}
+
+.textArea {
+  margin: 0;
+  padding: 80px;
+}
+
+.box1 {
+  background-color: white;
+  width: 60%;
+  height: 600px;
+  padding: 20px;
+  border: ridge;
 }
 
 /*# sourceMappingURL=style.css.map */
