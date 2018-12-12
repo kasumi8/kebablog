@@ -1,0 +1,65 @@
+
+    
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="description" content="Google等の検索結果に表示させるブログの概要" />
+        <title>ケバブログ.contact-page.</title>
+        <link rel="stylesheet" type="text/css" href="contact.css" media="all" />
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico"/>
+ 
+   </head>
+
+ <body>
+		
+    <div class="box">
+				<header>
+						<u><p>お問い合わせ</p></u>
+					</header>
+			<tr>
+				<td class="essential">お名前 <span class="red">*</span></td>
+				<br>
+				<td>
+					<input type="text" id="name" name="name" maxlength="60" class="form-control" value="">
+					<p class="infoTxt">（全角60文字以内）</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="essential">フリガナ <span class="red">*</span></td>
+				<td>
+					<div class="form-group">
+						<input type="text" class="form-control" id="kana" name="kana" value="" maxlength="60" color=#ff0000>
+						<p class="infoTxt">（全角60文字以内）</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+			<td class="essential">メールアドレス <span class="red">*</span></td>
+			<td>
+				<div class="form-group">
+					<input type="text" class="form-control" id="mail" name="mail"  value="" maxlength="128">
+				</div>
+			</td>
+			</tr>
+			<tr>
+				<td class="essential">メッセージ <span class="red">*</span></td><br>
+				<td>
+					<textarea  id="msg" name="msg" rows="6" cols="30" class="form-control textArea" maxlength="1000"></textarea>
+					<p class="infoTxt">（1000文字以内）</p>
+				</td>
+			</tr>
+			<form>
+				<div>
+					<input type="submit" value=" 送 信 " />
+					<input type="button" value=" 戻 る " onclick="history.back()" />
+				</div>
+			</form>
+		</div>
+</body>
+</html>
+    
