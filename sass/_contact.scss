@@ -1,18 +1,13 @@
 @charset "UTF-8";
 
-
-
 body, div, p, h1, h2, h3, h4, h5 img {
     margin: 0;
     padding: 0;
   }
   
-  body {
+body {
     font-family: "Mplus 1p", 'Titillium Web', sans-serif;  
-    margin: 20px;
-    padding: 20px;
     background-color: #F0F4F8
-
   }  
 
 .form-control {
@@ -26,15 +21,10 @@ body, div, p, h1, h2, h3, h4, h5 img {
 
 .box1 {
   background-color: white; 
-  width: 60%; height: 600px;
+  width: 60%;
   padding: 20px;
   border: ridge;
 }
-
-div {
-  
-}
-
 
 
 
