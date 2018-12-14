@@ -1,5 +1,5 @@
 .clearfix {
-    clear: both;
+    // clear: both;
   }
   
   #footer {
@@ -7,12 +7,12 @@
     padding: 0;
     color: rgb(255, 255, 255);
     font-weight: 100;
-    width: auto;
+    // width: auto;
   }
   
   .footer-picture {
     width:100%;
-    vertical-align: text-bottom;
+    vertical-align: text-top;
     opacity: 0.5;
   }
   
@@ -20,4 +20,6 @@
     color:white;
     background-color: $black;
     opacity: 0.5;
+    margin-bottom:0;
   }
+

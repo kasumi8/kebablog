@@ -1,62 +1,79 @@
 #content {
-    float: left;
-    width: 120%;
-    height: 200px;
+    /*float: left;*/
+    width: 100%;
+    height: 250px;
     padding-bottom: 20px;
     margin: 40px 0 30px 20px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     border-style: ridge;
     background-color: white;
   }
   
   .article {
-    position: absolute;
+    /*position: absolute;*/
     padding: 0 20px 0 20px;
     margin: 0 0 0 140px;
-    width: 50%;
+    /*width: 50%;*/
     overflow: hidden;
+    .h2 a{
+
+    }
   }
   
   .post {
     margin: 30px;
-    width: 40%;
-    height: 200px;
+    /*width: 40%;*/
+    height: 500px;
   }
   
   .post-picture {
-    width: 150px;
-    height: 150px;
-    float: left;
+    width: 300px;
+    height: 300px;
   }
   
   .post h2 {
     padding: 0 20px 0 20px;
-    
   }
   
   .entry-date {
     color: $black;
     margin-left: 20px;
-    float: left;
+    /*float: left;*/
   }
 
   .author {
     color: $black;
     margin-left: 20px;
-    float: left;
+    /*float: left;*/
   }
-
 
   .sentence {
     padding: 0 10px 40px 10px;
-    width: 80%;
+    /*width: 80%;*/
     height:80px;
     line-height: 20px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-text-overflow: clip;
     -webkit-line-clamp: 6;
-    
+  }
+
+  .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
   }
   
+  @media (min-width: 600px) {
+    .post {
+      height: 200px;
+    }
+
+    #header {
+      height:200;
+    }
+    
+    // .post-picture {
+    //   width: 150px;
+    //   height: 150px;
+  }

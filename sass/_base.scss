@@ -17,6 +17,10 @@ body, div, p, h1, h2, h3, h4, h5 img {
   padding: 0;
 }
 
+h2{
+  width: 250px;
+}
+
 body {
   font-family: "Mplus 1p", 'Titillium Web', sans-serif;
   background-color: $blue;
@@ -37,8 +41,10 @@ a:hover {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+.col-12 {
+  padding-right: 0;
+}
+.col-sm-12{
+  padding-right: 0;
 }
